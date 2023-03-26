@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.about p {
+    margin: 0;
+    text-indent: 2rem;
+    text-align: justify;
+  }
+
+
+
+.c-item {
+
+
+    height: 420px;
+
+}
+
+.c-item img {
+
+
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+
+}
+
+.logo-text {
+
+    letter-spacing: 10px;
+}
+
+.table {
+
+    box-sizing: border-box;
+}
+
+
+/* Socials footer */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding: 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1.1px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 100%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+    flex: content;
+
+}
+
+.socials a:hover i{
+    color: rgb(0, 0, 0);
+}
+
+
+.content {
+
+    border-radius: 50%;
+
+
+}
+
+
+
+
+
+.fa-ul {
+
+    margin: 0;
+
+}
+
+
+footer .fa-ul {
+
+    margin-left: 0;
+
+}
+
+
+.navbar-collapse {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar-collapse .search-bar {
+    display: none;
+    
+  
+}
+
+.search-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .column {
+    width: auto;
+}
+
+
+@media (max-width:991px) {
+
+    .navbar-collapse .search-bar {
+        display: flex;
+        max-width: 400px;
+        width: 100%;
+        align-items: center;
+    }
+    .search-left {
+        display: none;
+
+    }
+
+    .footer-container {
+
+        flex-direction: column;
+
+    }
+
+
+}
+
+
+@media (min-width:1015px) {
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+
+    }
+
+}
